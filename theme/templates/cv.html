@@ -1,0 +1,14 @@
+<h2>Experience</h2>
+{% for article in articles if article.author == page.author and article.cv == 'experience' %}
+    <div class="grid-x">
+      <div class="cell small-12 medium-6 large-8">
+        <h3>{{ article.title }}</h3>
+        <p>{{ article.summary }}</p>
+      </div>
+      <div class="cell small-12 medium-6 large-4">
+        <p>{{ article.location }}</p>
+        <p>{{ article.date | strftime('%d.%m.%Y') }}{% if article.modified %} - {{ article.modified | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
+      </div>
+    </div>
+    {{ article.content }}
+{% endfor %}

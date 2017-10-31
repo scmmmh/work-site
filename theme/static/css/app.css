@@ -1,0 +1,14 @@
+footer {
+  font-size: 80%;
+  border-top: 1px solid #dddddd;
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+}
+footer h2 {
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+footer .menu a {
+  padding-left: 0;
+}
