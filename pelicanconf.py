@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+JINJA_EXTENSIONS = ['jinja2.ext.do']
+PLUGINS = ['pelican_bibtex']  # https://github.com/vene/pelican-bibtex
+
 AUTHOR = 'Mark Hall'
 SITENAME = 'Work @ Room3b'
 SITEURL = 'https://work.room3b.eu'
@@ -30,3 +33,6 @@ THEME = './theme'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+STATIC_PATHS = ['publications']
+PUBLICATIONS_SRC = 'content/publications/mhall.bib'

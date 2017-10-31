@@ -8,5 +8,7 @@
   {% if page.special == 'cv' %}
     {% include 'cv.html' %}
   {% endif %}
-</section>
+  {% if page.special == 'publication' %}
+    {% include 'publication.html' %}
+  {% endif %}
 {% endblock %}

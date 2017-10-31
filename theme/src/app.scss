@@ -79,6 +79,60 @@
 }
 
 /**
+ * Publication formatting
+ */
+.publications {
+  nav {
+    position: sticky;
+    top: rem-calc(4rem);
+  }
+
+  & > ul {
+    margin-left: 0;
+
+    li {
+      list-style-type: none;
+    }
+
+    & > li {
+      margin-left: 0;
+      text-transform: capitalize;
+      font-weight: bold;
+      margin-bottom: 0.2rem;
+
+      & + li {
+        margin-top: 0.5rem;
+      }
+
+      ul {
+        font-weight: normal;
+        margin-left: 1rem;
+
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Icon styling
+ */
+ svg.icon {
+   height: rem-calc(16);
+   width: rem-calc(16);
+
+   &.pdf {
+     fill: #c00000;
+   }
+   &.link {
+     fill: currentColor;
+   }
+ }
+
+
+/**
  * Footer styling
  */
 footer {
