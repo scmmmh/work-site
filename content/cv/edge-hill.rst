@@ -1,12 +1,14 @@
-`Edge Hill University <https://www.edgehill.ac.uk>`_
-####################################################
+Edge Hill University
+####################
 
 :date: 2013-09-30
 :category: cv
 :cv: experience
-:location: Ormskirk, Lancashire, United Kingdom
+:location: Ormskirk, United Kingdom
+:url: https://edgehill.ac.uk
 :author: Mark Hall
 :summary: Senior Lecturer
+:slug: edgehill-university-senior-lecturer
 
 Teaching a variety of modules ranging from an introduction to programming to the development of mobile web applications.
 

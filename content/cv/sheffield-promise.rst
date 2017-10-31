@@ -1,11 +1,12 @@
-`University of Sheffield <https://sheffield.ac.uk/is>`_
-#######################################################
+University of Sheffield
+#######################
 
 :date: 2012-11-01
 :modified: 2013-09-27
 :category: cv
 :cv: experience
 :location: Sheffield, United Kingdom
+:url: https://sheffield.ac.uk/is
 :author: Mark Hall
 :summary: Research Associate
 :slug: university-of-sheffield-promise
