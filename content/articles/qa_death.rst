@@ -2,12 +2,13 @@ Quality Assurance and the Death of Good Teaching
 ################################################
 
 :date: 2016-12-07 18:00
+:modified: 2017-11-01 10:08
 :tags: quality assurance, teaching, tef
 :category: Teaching
 :authors: Mark Hall
 :summary: How Quality Assurance in UK Universities actively drives down teaching quality
 
-This is an post based on a talk I gave at Edge Hill University’s Centre for Learning and Teaching Conference, which was originally titled “Student-centred Learning, Quality Assurance, and the Death of Good Teaching”. After preparing and giving the talk, I have decided to chop the first bit off, as it distracted from the main message.
+This is a post based on a talk I gave at Edge Hill University’s Centre for Learning and Teaching Conference, which was originally titled “Student-centred Learning, Quality Assurance, and the Death of Good Teaching”. After preparing and giving the talk, I have decided to chop the first bit off, as it distracted from the main message.
 
 I will write about this in more detail at some point, but fundamentally the context is that student-centred learning and its resulting focus on student satisfaction has a direct, negative impact on teaching quality, as academic staff are essentially rewarded for lowering the quality of their teaching and assessment. This keeps students happy, as they have to do less work, and increases pass rates, another frequently used metric. In order to counter these pressures on academic quality, a large amount of quality-assurance processes have been created. The point I will make in this post is that rather than ensuring quality, in practice not only do they fail to do that, they actively inhibit good teaching. This is, admittedly, based on anecdotal evidence, but the problem is that the anecdotes highlight serious failings, which simply should not pass any Quality Assurance (QA) process, rather than minor failings which can slip through.
 

@@ -22,6 +22,13 @@
 @include foundation-top-bar;
 
 /**
+ * Generic styling
+ */
+ul.no-margin, ol.no-margin {
+  margin-left: 0;
+}
+
+/**
  * Header formatting
  */
 @include breakpoint(medium) {
@@ -35,6 +42,37 @@
   }
   article.grid-container {
     margin-top: 4rem;
+  }
+}
+
+/**
+ * Article Formatting
+ */
+.article {
+  margin-bottom: $paragraph-margin-bottom * 3;
+
+  & > h1, & > h2 {
+    margin-bottom: 0;
+  }
+
+  p + p {
+    text-indent: 2rem;
+  }
+
+  .metadata {
+    color: $dark-gray;
+    margin-bottom: $paragraph-margin-bottom;
+    font-size: 90%;
+
+    a:link, a:visited {
+      color: lighten($primary-color, 20%);
+    }
+  }
+
+  @include breakpoint(medium) {
+    aside {
+      padding-left: 2rem;
+    }
   }
 }
 
@@ -98,6 +136,7 @@
       margin-left: 0;
       text-transform: capitalize;
       font-weight: bold;
+      font-variant: small-caps;
       margin-bottom: 0.2rem;
 
       & + li {
@@ -106,6 +145,7 @@
 
       ul {
         font-weight: normal;
+        font-variant: normal;
         margin-left: 1rem;
 
         li {
@@ -116,6 +156,33 @@
   }
 }
 
+/**
+ * Archives Formatting
+ */
+.archives {
+  margin-left: 0;
+
+  ul {
+    margin-left: 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+
+  & > li {
+    font-variant: small-caps;
+
+    li {
+      font-variant: normal;
+    }
+
+    & + li {
+      margin-top: $paragraph-margin-bottom;
+    }
+  }
+}
 /**
  * Icon styling
  */

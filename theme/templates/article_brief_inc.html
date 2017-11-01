@@ -1,0 +1,28 @@
+<h2 class="cell small-12"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+<div class="cell small-12 metadata">
+  Posted on {{ article.locale_date }}
+  {% if article.modified %}
+    and updated on {{ article.locale_modified }}
+  {% endif %}
+  by
+  {% for author in article.authors %}
+    <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+  {% endfor %}
+</div>
+<div class="cell small-12">
+  {{ article.summary }}
+</div>
+<nav class="cell small-12 medium-4">
+  <ul class="menu simple">
+    <li class="menu-text">Categorised as:</li>
+    <li><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
+  </ul>
+</nav>
+<nav class="cell small-12 medium-8">
+  <ul class="menu simple">
+    <li class="menu-text">Tagged as:</li>
+    {% for tag in article.tags %}
+      <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | escape }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>{% block content_title %}{{ SITENAME }}{% endblock %}</h1>
+  {% if articles %}
+    <ol class="no-symbol no-margin">
+      {% for article in articles_page.object_list if not article.category == 'cv' %}
+        <li class="grid-x article">
+          {% include('article_brief_inc.html') %}
+        </li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+{% endblock %}

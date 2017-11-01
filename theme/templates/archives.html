@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+  {% set unique_dates = [] %}
+  {% for article in dates %}
+    {% if article.category != 'cv' and article.locale_date not in unique_dates %}
+      {% do unique_dates.append(article.locale_date) %}
+    {% endif %}
+  {% endfor %}
+  <h1>Archives</h1>
+  <ul class="archives">
+    {% for date in unique_dates %}
+      <li>{{ date}}
+        <ul>
+          {% for article in dates if article.locale_date == date and article.category != 'cv' %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
