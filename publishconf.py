@@ -10,15 +10,25 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+THEME = './theme'
+DELETE_OUTPUT_DIRECTORY = True
+
+AUTHOR = 'Mark Hall'
+SITENAME = 'Work @ Room3b'
 SITEURL = 'https://work.room3b.eu'
+TIMEZONE = 'Europe/Berlin'
+DEFAULT_LANG = 'en'
+
 RELATIVE_URLS = False
+PATH = 'content'
+
+MENUITEMS = [('Thoughts', SITEURL)]
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
-DELETE_OUTPUT_DIRECTORY = True
+LINKS = (('Institut für Informatik (Halle a/d Saale)', 'http://www.informatik.uni-halle.de/'),)
+SOCIAL = (('@hallicek', 'https://twitter.com/hallicek'),)
 
-# Following items are often useful when publishing
-
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+STATIC_PATHS = ['publications']
+PUBLICATIONS_SRC = 'content/publications/mhall.bib'
