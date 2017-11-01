@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import datetime
 
 JINJA_EXTENSIONS = ['jinja2.ext.do']
 PLUGINS = ['pelican_bibtex']  # https://github.com/scmmmh/pelican-bibtex
@@ -13,6 +14,8 @@ MENUITEMS = [('Thoughts', SITEURL)]
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
+
+GENERATION_DATE = datetime.now()
 
 DEFAULT_LANG = 'en'
 
