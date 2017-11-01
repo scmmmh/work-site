@@ -11,4 +11,4 @@ Cardiff University
 :summary: PhD in Computer Science
 :slug: cardiff-phd
 
-My PhD focused on developing quantitative models for spatial prepositions. Based on these quantitative models I developed systems for automatically interpreting and generating spatial-language expressions that can be tried out online. The PhD was conducted in the context of the Tripod EU project and is available from the publications, as are a number of papers on various aspects of the work.
+My PhD focused on developing quantitative models for spatial prepositions. Based on these quantitative models I developed systems for automatically interpreting and generating spatial-language expressions that can be tried out online. The PhD was conducted in the context of the Tripod EU project and is available from the `publications <{filename}../pages/publications.rst>`_, as are a number of papers on various aspects of the work.
