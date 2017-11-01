@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Content-Type: text/html"
+echo ""
 hg pull --update
 npm install
 ./node_modules/.bin/gulp --gulpfile ./theme-gulpfile.js
