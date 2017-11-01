@@ -9,7 +9,6 @@ PLUGINS = ['pelican_bibtex']  # https://github.com/scmmmh/pelican-bibtex
 AUTHOR = 'Mark Hall'
 SITENAME = 'Work @ Room3b'
 SITEURL = ''
-MENUITEMS = [('Thoughts', SITEURL)]
 
 PATH = 'content'
 

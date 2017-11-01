@@ -22,8 +22,6 @@ DEFAULT_LANG = 'en'
 RELATIVE_URLS = False
 PATH = 'content'
 
-MENUITEMS = [('Thoughts', SITEURL)]
-
 LINKS = (('Institut für Informatik (Halle a/d Saale)', 'http://www.informatik.uni-halle.de/'),)
 SOCIAL = (('@hallicek', 'https://twitter.com/hallicek'),)
 
