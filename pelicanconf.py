@@ -7,7 +7,8 @@ PLUGINS = ['pelican_bibtex']  # https://github.com/scmmmh/pelican-bibtex
 
 AUTHOR = 'Mark Hall'
 SITENAME = 'Work @ Room3b'
-SITEURL = 'https://work.room3b.eu'
+SITEURL = ''
+MENUITEMS = [('Thoughts', SITEURL)]
 
 PATH = 'content'
 
@@ -26,8 +27,6 @@ LINKS = (('Institut für Informatik (Halle a/d Saale)', 'http://www.informatik.u
 SOCIAL = (('@hallicek', 'https://twitter.com/hallicek'),)
 
 DEFAULT_PAGINATION = 10
-
-DISPLAY_CATEGORIES_ON_MENU = True
 
 THEME = './theme'
 
