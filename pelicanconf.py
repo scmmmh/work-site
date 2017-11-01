@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 JINJA_EXTENSIONS = ['jinja2.ext.do']
-PLUGINS = ['pelican_bibtex']  # https://github.com/vene/pelican-bibtex
+PLUGINS = ['pelican_bibtex']  # https://github.com/scmmmh/pelican-bibtex
 
 AUTHOR = 'Mark Hall'
 SITENAME = 'Work @ Room3b'
