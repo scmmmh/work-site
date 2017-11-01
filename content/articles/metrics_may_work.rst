@@ -5,7 +5,7 @@ Metrics That May Work
 :tags: metric, staff-student ratio, teaching, tef
 :category: Teaching
 :authors: Mark Hall
-:summary: Suggestions on comparable metrics for evaluating teaching quality
+:summary: Suggestions on comparable metrics for evaluating teaching quality.
 
 As the Teaching Excellence Framework shows now signs of going away (https://www.timeshighereducation.com/news/tef-must-learn-lessons-school-and-hospital-ratings), I’ve been thinking about potential metrics again. One thing I’ve been thinking about is whether staff-student ratios are a useful tool to at least give some indication of the importance that an institution puts on teaching.
 

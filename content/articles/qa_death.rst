@@ -6,7 +6,7 @@ Quality Assurance and the Death of Good Teaching
 :tags: quality assurance, teaching, tef
 :category: Teaching
 :authors: Mark Hall
-:summary: How Quality Assurance in UK Universities actively drives down teaching quality
+:summary: How Quality Assurance in UK Universities actively drives down teaching quality.
 
 This is a post based on a talk I gave at Edge Hill University’s Centre for Learning and Teaching Conference, which was originally titled “Student-centred Learning, Quality Assurance, and the Death of Good Teaching”. After preparing and giving the talk, I have decided to chop the first bit off, as it distracted from the main message.
 
