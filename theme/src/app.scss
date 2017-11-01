@@ -50,6 +50,11 @@ ul.no-margin, ol.no-margin {
  */
 .article {
   margin-bottom: $paragraph-margin-bottom * 3;
+  padding: 0.5rem;
+
+  &:hover {
+    box-shadow: 0 0 5px $light-gray;
+  }
 
   & > h1, & > h2 {
     margin-bottom: 0;
@@ -89,6 +94,11 @@ ul.no-margin, ol.no-margin {
   }
   .entry {
     margin-bottom: $paragraph-margin-bottom * 3;
+    padding: 0.5rem;
+
+    &:hover {
+      box-shadow: 0 0 5px $light-gray;
+    }
   }
   .summary {
     font-style: italic;
