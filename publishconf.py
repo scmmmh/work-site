@@ -24,9 +24,6 @@ PATH = 'content'
 
 MENUITEMS = [('Thoughts', SITEURL)]
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-
 LINKS = (('Institut für Informatik (Halle a/d Saale)', 'http://www.informatik.uni-halle.de/'),)
 SOCIAL = (('@hallicek', 'https://twitter.com/hallicek'),)
 
