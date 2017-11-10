@@ -7,7 +7,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.do']}
 PLUGINS = [
     'pelican_bibtex',  # https://github.com/scmmmh/pelican-bibtex
     'pelican_page_hierarchy',  # https://github.com/scmmmh/pelican-page-hierarchy.git
-    'pelican_page_order',
+    'pelican_page_order',  # https://github.com/scmmmh/pelican-page-order
     ]
 
 AUTHOR = 'Mark Hall'
