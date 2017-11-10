@@ -2,5 +2,6 @@ Curriculum Vitae
 ################
 
 :author: Mark Hall
-:special: cv
+:cv: cv.json
+:template: cv
 :order: 1

@@ -9,6 +9,7 @@ PLUGINS = [
     'pelican_bibtex',  # https://github.com/scmmmh/pelican-bibtex
     'pelican_page_hierarchy',  # https://github.com/scmmmh/pelican-page-hierarchy.git
     'pelican_page_order',  # https://github.com/scmmmh/pelican-page-order
+    'pelican_cv'
     ]
 
 # General settings
@@ -47,3 +48,5 @@ RELATIVE_URLS = True
 # Settings for generating the publications page
 STATIC_PATHS = ['publications']
 PUBLICATIONS_SRC = 'content/publications/mhall.bib'
+
+CVS_SRC = ['content/cv/cv.json']

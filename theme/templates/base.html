@@ -49,9 +49,7 @@
             <li><a href="#">Categories</a>
               <ul class="menu vertical">
                 {% for menu_category, null in categories %}
-                  {% if menu_category.name != 'cv' %}
-                    <li {% if menu_category == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ menu_category.url }}">{{ menu_category }}</a></li>
-                  {% endif %}
+                  <li {% if menu_category == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ menu_category.url }}">{{ menu_category }}</a></li>
                 {% endfor %}
               </ul>
             </li>

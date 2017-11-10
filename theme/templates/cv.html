@@ -1,88 +1,92 @@
-<section class="cv">
-  <div class="grid-x">
-    <div class="cell small-12 medium-9 large-10">
-      <h2 id="cv-experience">Experience</h2>
-      {% set titles = [''] %}
-      {% for article in articles if article.author == page.author and article.cv == 'experience' %}
-        <div class="entry {% if article.title == titles[-1] %}short{% endif %}">
-          <div class="grid-x">
-            <div class="cell small-12 medium-6 large-8">
-              {% if article.title != titles[-1] %}<h3>{% if article.url %}<a href="{{ article.url }}">{{ article.title }}</a>{% else %}{{ article.title }}{% endif %}</h3>{% endif %}
-              <div class="summary">{{ article.summary }}</div>
+{% extends "page.html" %}
+{% block content %}
+  {{ super() }}
+  <section class="cv">
+    <div class="grid-x">
+      <div class="cell small-12 medium-9 large-10">
+        <h2 id="cv-experience">Experience</h2>
+        {% set titles = [''] %}
+        {% for entry in cvs[page.cv].work %}
+          <div class="entry {% if entry.company == titles[-1] %}short{% endif %}">
+            <div class="grid-x">
+              <div class="cell small-12 medium-6 large-8">
+                {% if entry.company != titles[-1] %}<h3>{% if entry.website %}<a href="{{ entry.website }}">{{ entry.company }}</a>{% else %}{{ entry.company }}{% endif %}</h3>{% endif %}
+                <div class="summary">{{ entry.entry }}</div>
+              </div>
+              <div class="cell small-12 medium-6 large-4">
+                {% if entry.title != titles[-1] %}<p class="location">{{ entry.location }}</p>{% endif %}
+                <p class="dates">{{ entry.startDate | strftime('%d.%m.%Y') }}{% if entry.endDate %} - {{ entry.endDate | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
+              </div>
             </div>
-            <div class="cell small-12 medium-6 large-4">
-              {% if article.title != titles[-1] %}<p class="location">{{ article.location }}</p>{% endif %}
-              <p class="dates">{{ article.date | strftime('%d.%m.%Y') }}{% if article.modified %} - {{ article.modified | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
-            </div>
+            {{ entry.summary }}
           </div>
-          {{ article.content }}
-        </div>
-        {% do titles.append(article.title) %}
-      {% endfor %}
-      <h2 id="cv-education">Education</h2>
-      {% set titles = [''] %}
-      {% for article in articles if article.author == page.author and article.cv == 'education' %}
-        <div class="entry">
-          <div class="grid-x">
-            <div class="cell small-12 medium-6 large-8">
-              {% if article.title != titles[-1] %}<h3>{% if article.url %}<a href="{{ article.url }}">{{ article.title }}</a>{% else %}{{ article.title }}{% endif %}</h3>{% endif %}
-              <div class="summary">{{ article.summary }}</div>
+          {% do titles.append(entry.title) %}
+        {% endfor %}
+        <h2 id="cv-education">Education</h2>
+        {% set titles = [''] %}
+        {% for entry in cvs[page.cv].education %}
+          <div class="entry">
+            <div class="grid-x">
+              <div class="cell small-12 medium-6 large-8">
+                {% if entry.institution != titles[-1] %}<h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.institution }}</a>{% else %}{{ entry.institution }}{% endif %}</h3>{% endif %}
+                <div class="summary">{{ entry.studyType }}</div>
+              </div>
+              <div class="cell small-12 medium-6 large-4">
+                {% if entry.institution != titles[-1] %}<p class="location">{{ entry.location }}</p>{% endif %}
+                <p class="dates">{{ entry.startDate | strftime('%d.%m.%Y') }}{% if entry.endDate %} - {{ entry.endDate | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
+              </div>
             </div>
-            <div class="cell small-12 medium-6 large-4">
-              {% if article.title != titles[-1] %}<p class="location">{{ article.location }}</p>{% endif %}
-              <p class="dates">{{ article.date | strftime('%d.%m.%Y') }}{% if article.modified %} - {{ article.modified | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
-            </div>
+            {{ entry.summary }}
           </div>
-          {{ article.content }}
-        </div>
-        {% do titles.append(article.title) %}
-      {% endfor %}
-      <h2 id="cv-awards">Awards</h2>
-      {% set titles = [''] %}
-      {% for article in articles if article.author == page.author and article.cv == 'awards' %}
-        <div class="entry">
-          <div class="grid-x">
-            <div class="cell small-12 medium-6 large-8">
-              {% if article.title != titles[-1] %}<h3>{% if article.url %}<a href="{{ article.url }}">{{ article.title }}</a>{% else %}{{ article.title }}{% endif %}</h3>{% endif %}
-              <div class="summary">{{ article.summary }}</div>
+          {% do titles.append(entry.institution) %}
+        {% endfor %}
+        <h2 id="cv-awards">Awards</h2>
+        {% set titles = [''] %}
+        {% for entry in cvs[page.cv].awards %}
+          <div class="entry">
+            <div class="grid-x">
+              <div class="cell small-12 medium-6 large-8">
+                {% if entry.awarder != titles[-1] %}<h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.awarder }}</a>{% else %}{{ entry.awarder }}{% endif %}</h3>{% endif %}
+                <div class="summary">{{ entry.title }}</div>
+              </div>
+              <div class="cell small-12 medium-6 large-4">
+                {% if entry.awarder != titles[-1] %}<p class="location">{{ entry.location }}</p>{% endif %}
+                <p class="dates">{{ entry.startDate | strftime('%d.%m.%Y') }}{% if entry.endDate %} - {{ entry.endDate | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
+              </div>
             </div>
-            <div class="cell small-12 medium-6 large-4">
-              {% if article.title != titles[-1] %}<p class="location">{{ article.location }}</p>{% endif %}
-              <p class="dates">{{ article.date | strftime('%d.%m.%Y') }}{% if article.modified %} - {{ article.modified | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
-            </div>
+            {{ entry.summary }}
           </div>
-          {{ article.content }}
-        </div>
-        {% do titles.append(article.title) %}
-      {% endfor %}
-      <h2 id="cv-training">Training</h2>
-      {% set titles = [''] %}
-      {% for article in articles if article.author == page.author and article.cv == 'training' %}
-        <div class="entry">
-          <div class="grid-x">
-            <div class="cell small-12 medium-6 large-8">
-              {% if article.title != titles[-1] %}<h3>{% if article.url %}<a href="{{ article.url }}">{{ article.title }}</a>{% else %}{{ article.title }}{% endif %}</h3>{% endif %}
-              <div class="summary">{{ article.summary }}</div>
+          {% do titles.append(entry.awarder) %}
+        {% endfor %}
+        <h2 id="cv-training">Training</h2>
+        {% set titles = [''] %}
+        {% for entry in cvs[page.cv].training %}
+          <div class="entry">
+            <div class="grid-x">
+              <div class="cell small-12 medium-6 large-8">
+                {% if entry.institution != titles[-1] %}<h3>{% if entry.url %}<a href="{{ entry.url }}">{{ entry.institution }}</a>{% else %}{{ entry.institution }}{% endif %}</h3>{% endif %}
+                <div class="summary">{{ entry.studyType }}</div>
+              </div>
+              <div class="cell small-12 medium-6 large-4">
+                {% if entry.institution != titles[-1] %}<p class="location">{{ entry.location }}</p>{% endif %}
+                <p class="dates">{{ entry.startDate | strftime('%d.%m.%Y') }}{% if entry.endDate %} - {{ entry.endDate | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
+              </div>
             </div>
-            <div class="cell small-12 medium-6 large-4">
-              {% if article.title != titles[-1] %}<p class="location">{{ article.location }}</p>{% endif %}
-              <p class="dates">{{ article.date | strftime('%d.%m.%Y') }}{% if article.modified %} - {{ article.modified | strftime('%d.%m.%Y') }}{% else %} - Present{% endif %}</p>
-            </div>
+            {{ entry.summary }}
           </div>
-          {{ article.content }}
-        </div>
-        {% do titles.append(article.title) %}
-      {% endfor %}
+          {% do titles.append(entry.institution) %}
+        {% endfor %}
+      </div>
+      <div class="cell hide-for-small-only medium-3 large-2">
+        <nav>
+          <ul class="menu vertical align-right">
+            <li><a href="#cv-experience">Experience</a></li>
+            <li><a href="#cv-education">Education</a></li>
+            <li><a href="#cv-awards">Awards</a></li>
+            <li><a href="#cv-training">Training</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <div class="cell hide-for-small-only medium-3 large-2">
-      <nav>
-        <ul class="menu vertical align-right">
-          <li><a href="#cv-experience">Experience</a></li>
-          <li><a href="#cv-education">Education</a></li>
-          <li><a href="#cv-awards">Awards</a></li>
-          <li><a href="#cv-training">Training</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</section>
+  </section>
+{% endblock %}
