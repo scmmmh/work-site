@@ -29,8 +29,16 @@
             <li><a href="{{ link }}">{{ title }}</a></li>
           {% endfor %}
           {% if DISPLAY_PAGES_ON_MENU -%}
-            {% for menu_page in pages %}
-              <li {% if menu_page == page %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ menu_page.url }}">{{ menu_page.title }}</a></li>
+            {% for menu_page in pages if not menu_page.parent %}
+              <li {% if menu_page == page or page in menu_page.children %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ menu_page.url }}">{{ menu_page.title }}</a>
+                {% if menu_page.children %}
+                  <ul class="menu vertical">
+                    {% for child_page in menu_page.children %}
+                      <li {% if child_page == page %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ child_page.url }}">{{ child_page.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
             {% endfor %}
           {% endif %}
         </ul>

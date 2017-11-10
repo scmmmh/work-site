@@ -1,2 +1,3 @@
 pelican
 git+git://github.com/scmmmh/pelican-bibtex.git
+git+git://github.com/scmmmh/pelican-page-hierarchy.git

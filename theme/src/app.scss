@@ -22,6 +22,21 @@
 @include foundation-top-bar;
 
 /**
+ * Foundation overrides
+ */
+.top-bar {
+  .dropdown.menu > li.is-dropdown-submenu-parent.active {
+    & > a {
+      background: get-color(primary);
+      color: $white;
+    }
+
+    & > a::after {
+      border-color: $white transparent transparent;
+    }
+  }
+}
+/**
  * Generic styling
  */
 ul.no-margin, ol.no-margin {
@@ -180,7 +195,6 @@ ul.no-margin, ol.no-margin {
     list-style-type: none;
   }
 
-
   & > li {
     font-variant: small-caps;
 
@@ -193,20 +207,21 @@ ul.no-margin, ol.no-margin {
     }
   }
 }
+
 /**
  * Icon styling
  */
- svg.icon {
-   height: rem-calc(16);
-   width: rem-calc(16);
+svg.icon {
+  height: rem-calc(16);
+  width: rem-calc(16);
 
-   &.pdf {
-     fill: #c00000;
-   }
-   &.link {
-     fill: currentColor;
-   }
- }
+  &.pdf {
+    fill: #c00000;
+  }
+  &.link {
+    fill: currentColor;
+  }
+}
 
 
 /**
