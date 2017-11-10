@@ -108,11 +108,22 @@ ul.no-margin, ol.no-margin {
     margin-bottom: 0;
   }
   .entry {
-    margin-bottom: $paragraph-margin-bottom * 3;
     padding: 0.5rem;
 
     &:hover {
       box-shadow: 0 0 5px $light-gray;
+    }
+
+    & + .entry {
+      margin-top: $paragraph-margin-bottom;
+
+      &.short {
+        margin-top: 0;
+      }
+    }
+
+    & + h2 {
+      margin-top: $paragraph-margin-bottom * 2;
     }
   }
   .summary {

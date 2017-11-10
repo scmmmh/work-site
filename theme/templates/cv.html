@@ -4,7 +4,7 @@
       <h2 id="cv-experience">Experience</h2>
       {% set titles = [''] %}
       {% for article in articles if article.author == page.author and article.cv == 'experience' %}
-        <div class="entry">
+        <div class="entry {% if article.title == titles[-1] %}short{% endif %}">
           <div class="grid-x">
             <div class="cell small-12 medium-6 large-8">
               {% if article.title != titles[-1] %}<h3>{% if article.url %}<a href="{{ article.url }}">{{ article.title }}</a>{% else %}{{ article.title }}{% endif %}</h3>{% endif %}
