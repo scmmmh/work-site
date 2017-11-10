@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 from datetime import datetime
 
-JINJA_EXTENSIONS = ['jinja2.ext.do']
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.do']}
 PLUGINS = [
     'pelican_bibtex',  # https://github.com/scmmmh/pelican-bibtex
     'pelican_page_hierarchy',  # https://github.com/scmmmh/pelican-page-hierarchy.git
