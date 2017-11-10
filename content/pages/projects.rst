@@ -1,6 +1,9 @@
 Projects
 ########
 
+:author: Mark Hall
+:order: 3
+
 Ongoing projects.
 
 `Experiment Support System <{filename}projects/ess.rst>`_
