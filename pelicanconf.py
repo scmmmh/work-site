@@ -49,4 +49,5 @@ RELATIVE_URLS = True
 STATIC_PATHS = ['publications']
 PUBLICATIONS_SRC = ['content/publications/mhall.bib']
 
+# Settings for the cv page
 CVS_SRC = ['content/cv/cv.json']
