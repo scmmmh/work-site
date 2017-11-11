@@ -36,6 +36,12 @@
     }
   }
 }
+.breadcrumbs {
+  background: $white;
+  margin: 0;
+  padding: 0 0 $global-padding 0;
+}
+
 /**
  * Generic styling
  */
@@ -79,20 +85,19 @@ ul.no-margin, ol.no-margin {
     text-indent: 2rem;
   }
 
-  .metadata {
-    color: $dark-gray;
-    margin-bottom: $paragraph-margin-bottom;
-    font-size: 90%;
-
-    a:link, a:visited {
-      color: lighten($primary-color, 20%);
-    }
-  }
-
   @include breakpoint(medium) {
     aside {
       padding-left: 2rem;
     }
+  }
+}
+.metadata {
+  color: $dark-gray;
+  margin-bottom: $paragraph-margin-bottom;
+  font-size: 90%;
+
+  a:link, a:visited {
+    color: lighten($primary-color, 20%);
   }
 }
 
