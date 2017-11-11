@@ -24,6 +24,3 @@ PATH = 'content'
 
 LINKS = (('Institut für Informatik (Halle a/d Saale)', 'http://www.informatik.uni-halle.de/'),)
 SOCIAL = (('@hallicek', 'https://twitter.com/hallicek'),)
-
-STATIC_PATHS = ['publications']
-PUBLICATIONS_SRC = 'content/publications/mhall.bib'
