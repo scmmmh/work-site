@@ -47,6 +47,6 @@ RELATIVE_URLS = True
 
 # Settings for generating the publications page
 STATIC_PATHS = ['publications']
-PUBLICATIONS_SRC = 'content/publications/mhall.bib'
+PUBLICATIONS_SRC = ['content/publications/mhall.bib']
 
 CVS_SRC = ['content/cv/cv.json']

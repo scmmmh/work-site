@@ -2,5 +2,6 @@ Publications
 ############
 
 :author: Mark Hall
-:special: publication
+:template: publications
+:publications: mhall.bib
 :order: 2
