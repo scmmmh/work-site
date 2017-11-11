@@ -1,3 +1,12 @@
+{% macro page_menu(pages, direction='vertical', include_ul=True) -%}
+  {% if include_ul %}<ul class="menu {% if direction == 'vertical' %}vertical{% endif %}">{% endif %}
+    {% for menu_page in pages %}
+      <li {% if page and (menu_page == page or menu_page in page.parents) %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ menu_page.url }}">{{ menu_page.title }}</a>
+        {% if menu_page.children %}{{ page_menu(menu_page.children) }}{% endif %}
+      </li>
+    {% endfor %}
+  {% if include_ul %}</ul>{% endif %}
+{%- endmacro -%}
 <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
   <head>
@@ -29,17 +38,7 @@
             <li><a href="{{ link }}">{{ title }}</a></li>
           {% endfor %}
           {% if DISPLAY_PAGES_ON_MENU -%}
-            {% for menu_page in pages if not menu_page.parent %}
-              <li {% if menu_page == page or page in menu_page.children %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ menu_page.url }}">{{ menu_page.title }}</a>
-                {% if menu_page.children %}
-                  <ul class="menu vertical">
-                    {% for child_page in menu_page.children %}
-                      <li {% if child_page == page %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ child_page.url }}">{{ child_page.title }}</a></li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              </li>
-            {% endfor %}
+            {{ page_menu(pages|selectattr('parent', 'none'), direction='horizontal', include_ul=False) }}
           {% endif %}
         </ul>
       </nav>
