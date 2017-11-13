@@ -14,6 +14,7 @@ PLUGINS = [
 
 # General settings
 AUTHOR = 'Mark Hall'
+AUTHOR_EMAIL = 'mark dot hall at work dot room3b dot eu'
 SITENAME = 'Work @ Room3b'
 SITEURL = ''
 
