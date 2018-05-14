@@ -13,4 +13,4 @@ pelican_cv = {git = "git://github.com/scmmmh/pelican-cv.git"}
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3"
