@@ -13,6 +13,7 @@
     {% block head %}
       <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
       <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/app.css"/>
       {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
@@ -103,7 +104,7 @@
       <nav class="cell small-12 medium-auto">
         <h2>Impressum</h2>
         <p><a href="mailto:{{ AUTHOR_EMAIL }}">{{ AUTHOR }}</a></p>
-        <p>Last generated: {{ GENERATION_DATE | strftime('%d.%m.%Y %H:%M')}}</p>
+        <p>Last generated: {{ GENERATION_DATE | strftime('%d.%m.%Y %H:%M')}} UTZ</p>
         <p>Generated with <a href="http://getpelican.com/">Pelican</a>, <a href="https://pybtex.org/">Pybtex</a>, and the power of <a href="http://python.org">Python</a>.</p>
       </nav>
     </footer>

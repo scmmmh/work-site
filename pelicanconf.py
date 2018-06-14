@@ -49,7 +49,7 @@ THEME = './theme'
 RELATIVE_URLS = True
 
 # Settings for generating the publications page
-STATIC_PATHS = ['publications']
+STATIC_PATHS = ['publications', 'presentations']
 PUBLICATIONS_SRC = ['content/publications/mhall.bib']
 
 # Settings for the cv page

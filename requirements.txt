@@ -1,5 +1,0 @@
-pelican
-git+git://github.com/scmmmh/pelican-bibtex.git
-git+git://github.com/scmmmh/pelican-page-hierarchy.git
-git+git://github.com/scmmmh/pelican-page-order.git
-git+git://github.com/scmmmh/pelican-cv.git
