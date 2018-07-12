@@ -21,8 +21,7 @@
       {% if FEED_ALL_RSS %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
       {% endif %}
-      <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.js"></script>
-      <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/what-input.js"></script>
+      <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/what-input.js" async></script>
     {% endblock %}
   </head>
   <body>
@@ -108,6 +107,7 @@
         <p>Generated with <a href="http://getpelican.com/">Pelican</a>, <a href="https://pybtex.org/">Pybtex</a>, and the power of <a href="http://python.org">Python</a>.</p>
       </nav>
     </footer>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/foundation.js"></script>
     <script>$(document).foundation();</script>
   </body>
