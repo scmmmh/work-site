@@ -11,7 +11,7 @@
             <div class="grid-x">
               <div class="cell small-12 medium-6 large-8">
                 {% if entry.company != titles[-1] %}<h3>{% if entry.website %}<a href="{{ entry.website }}">{{ entry.company }}</a>{% else %}{{ entry.company }}{% endif %}</h3>{% endif %}
-                <div class="summary">{{ entry.position }}</div>
+                <p class="summary">{{ entry.position }}</p>
               </div>
               <div class="cell small-12 medium-6 large-4">
                 {% if entry.title != titles[-1] %}<p class="location">{{ entry.location }}</p>{% endif %}

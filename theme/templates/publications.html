@@ -4,10 +4,10 @@
   <section class="publications grid-x">
     <ul class="cell small-12 medium-9 large-10">
       {% for year, year_publications in publications[page.publications]|groupby('fields.year')|reverse %}
-      <li id="publication-{{ year }}">{{ year }}
+      <li><div id="publication-{{ year }}">{{ year }}</div>
         <ul>
           {% for pub in year_publications %}
-            <li>
+            <li id="publication-{{ pub.key }}">
               {%if pub.fields.get('pdf', None) %}<a href="{{ SITEURL }}/publications/{{ pub.fields.get('pdf') }}"><svg class="icon pdf"><use href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/icons.svg#pdf"></use></svg></a>{% endif %}
               {%if pub.fields.get('doi', None) %}<a href="https://dx.doi.org/{{ pub.fields.get('doi') }}"><svg class="icon link"><use href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/icons.svg#external-link"></use></svg></a>{% endif %}
               {{ pub.fields.get('rendered') }}

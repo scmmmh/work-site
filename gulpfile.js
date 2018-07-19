@@ -20,3 +20,7 @@ gulp.task('css', function(cb) {
         gulp.dest('theme/static/css')
     ], cb);
 });
+
+gulp.task('watch', ['default'], function(cb) {
+    gulp.watch('theme/src/**/*.scss', ['css']);
+});
