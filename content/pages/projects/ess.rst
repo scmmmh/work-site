@@ -24,9 +24,13 @@ It currently supports the following features:
   for both within and between subject setups.
 * **Extensibility** - The system can be extended with custom question types.
 
+Status:
+  Completed
 Web-site:
   https://experiment-support-system.readthedocs.io/en/latest/
 Source-code:
   https://bitbucket.org/mhall/experiment-support-system
 License:
   GNU GPLv3
+Publications:
+  `Building a Common Framework for IIR Evaluation <{filename}../publications.rst#publication-HallToms2013>`_
