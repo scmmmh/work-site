@@ -4,6 +4,10 @@ Presentations
 :author: Mark Hall
 :order: 5
 
+* **2019**
+
+  * `Annotations are not just for writing <{filename}../presentations/2019_Wuppertal.tar.gz>`_ (Annotation in Edition und Forschung, Bergische Universität Wuppertal) 
+
 * **2018**
 
   * `Zugang für Alle: Barrierefreiheit und das Web <{filename}../presentations/2018_it2.tar.gz>`_ (IT^2 Tag, Insitut für Informatik, Martin-Luther-Universität Halle-Wittenberg)
