@@ -6,7 +6,10 @@ Presentations
 
 * **2019**
 
-  * `Annotations are not just for writing <{filename}../presentations/2019_Wuppertal.tar.gz>`_ (Annotation in Edition und Forschung, Bergische Universität Wuppertal) 
+  * `Annotations are not just for writing <{filename}../presentations/2019_wuppertal.tar.gz>`_ (Annotation in Edition und Forschung, Bergische Universität Wuppertal)
+  * `Visual Interfaces for Exploring Digital Cultural Heritage <{filename}../presentations/2019_vlunch.tar.gz>`_ (vLunch, Cardiff University)
+  * `DH is the Study of Dead Dudes <{filename}../presentations/2019_dhd.tar.gz>`_ (Digital Humanities Deutschland, Frankfurt)
+  * `To Re-use is to Re-write <{filename}../presentations/2019_biirrr.tar.gz>`_ (Barriers to Interactive IR Resource Reuse, CHIRR, Glasgow)
 
 * **2018**
 
