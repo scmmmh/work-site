@@ -2,8 +2,9 @@
 Code
 ####
 
-The code license covers all files of the project with the exception of those
-files in the "content" folder and its descendant folders.
+The code license covers all files of the project with the exception (1) of those
+files in the "content" folder and its descendant folders and (2) files that specify
+a different license.
 
 Copyright (c) 2017-2019 Mark Michael Hall
 
