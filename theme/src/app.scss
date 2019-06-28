@@ -35,6 +35,9 @@
             border-color: $white transparent transparent;
         }
     }
+    .dropdown.menu > li.active > a {
+        background: get-color(primary);
+    }
 }
 .breadcrumbs {
     background: $white;
