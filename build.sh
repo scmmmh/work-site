@@ -1,6 +1,6 @@
 #!/bin/bash
 export PIPENV_VENV_IN_PROJECT=1
-hg pull --update
+git pull
 npm install
 ./node_modules/.bin/gulp
 pipenv install
