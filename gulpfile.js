@@ -1,14 +1,9 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var concat = require('gulp-concat');
-var clean_css = require('gulp-clean-css');
-var babel = require('gulp-babel');
-var uglify = require('gulp-uglify');
-var pump = require('pump');
-
-gulp.task('default', ['css']);
+const gulp = require('gulp'),
+      sass = require('gulp-sass'),
+      clean_css = require('gulp-clean-css'),
+      pump = require('pump');
 
 gulp.task('css', function(cb) {
     pump([
@@ -21,6 +16,8 @@ gulp.task('css', function(cb) {
     ], cb);
 });
 
-gulp.task('watch', ['default'], function(cb) {
-    gulp.watch('theme/src/**/*.scss', ['css']);
-});
+gulp.task('default', gulp.parallel('css'));
+
+gulp.task('watch', gulp.series('default', function(cb) {
+    gulp.watch('theme/src/**/*.scss', gulp.parallel('css'));
+}));
