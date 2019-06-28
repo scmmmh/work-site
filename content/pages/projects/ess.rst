@@ -4,11 +4,6 @@ Experiment Support System
 :author: Mark Hall
 :order: 3
 
-.. important::
-
-  In its current form the project has been completed, but a replacement
-  version that is simpler in use and maintenance is currently in development.
-
 The Experiment Support System is a python-based web-application for building
 online surveys, questionnaire's, and crowdsourcing-style experiments. It was
 built based on a requirement to support both traditional and crowdsourcing-style

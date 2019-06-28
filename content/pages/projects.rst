@@ -15,19 +15,15 @@ UK.
 
 .. _`Digital Museum Map`: https://museum-map.uzi.uni-halle.de
 
-.. class:: project-completed
+`Explore the Stacks <{filename}projects/explore-the-stacks.rst>`_
+-----------------------------------------------------------------
 
-Explore the Stacks
-------------------
-
-The `Explore the Stacks`_ application demonstrates how browsing-based navigation
+The `Explore the Stacks application`_ demonstrates how browsing-based navigation
 can be combined with search to enable an integrated experience. In the
 application a collection of approximately 30,000 books from the British Library
 and their illustrations can be explored.
 
-.. _`Explore the Stacks`: https://explore-the-stacks.uzi.uni-halle.de
-
-.. class:: project-completed
+.. _`Explore the Stacks application`: https://explore-the-stacks.uzi.uni-halle.de
 
 `Experiment Support System <{filename}projects/ess.rst>`_
 ---------------------------------------------------------
