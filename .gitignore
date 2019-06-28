@@ -1,7 +1,4 @@
-syntax: glob
 output
 node_modules
-__pycache__
-venv
 .venv
 *.log
