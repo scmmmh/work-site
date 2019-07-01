@@ -23,4 +23,4 @@ Source-code:
 License:
   GPLv3
 Publications
-  `Explore the Stacks: A System for Exploration in Large Digital Libraries <{filename}../publications.rst#publication-hall2014a>`_
+  `Explore the Stacks: A System for Exploration in Large Digital Libraries <{filename}../publications.rst#publication-Hall2014a>`_

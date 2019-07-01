@@ -28,4 +28,4 @@ Source-code:
 License:
   GNU GPLv3
 Publications:
-  `Building a Common Framework for IIR Evaluation <{filename}../publications.rst#publication-halltoms2013>`_
+  `Building a Common Framework for IIR Evaluation <{filename}../publications.rst#publication-HallToms2013>`_

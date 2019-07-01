@@ -20,3 +20,5 @@ Source-code:
   https://github.com/scmmmh/under-the-surface
 License:
   CC-BY-SA-4.0
+Publication:
+  `DH is the study of dead Dudes <{filename}../publications.rst#publication-Hall2019b>`_

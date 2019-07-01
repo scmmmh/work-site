@@ -23,8 +23,8 @@ Documentation:
   https://tei-reader.readthedocs.io/
 Source-code:
   https://gitlab.informatik.uni-halle.de/amsvu/tei-reader
-Publication:
-  Digital Editions are not just for Writing
+License:
+  MIT
 
 TEI Editor
 ----------

@@ -18,4 +18,4 @@ Web-site:
 Source-code:
   To be released
 Publications:
-  `A Humorous View into the Past: The Old Jokes Archive. <{filename}../publications.rst#publication-hallnicholson2019>`_
+  `A Humorous View into the Past: The Old Jokes Archive. <{filename}../publications.rst#publication-HallNicholson2019>`_

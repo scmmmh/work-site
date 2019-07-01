@@ -26,3 +26,5 @@ Source-code:
   To be released
 License:
   MIT
+Publication:
+  `Digital Museum Map <{filename}../publications.rst#publication-Hall2018>`_
