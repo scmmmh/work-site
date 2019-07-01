@@ -2,7 +2,7 @@ Digital Museum Map
 ##################
 
 :author: Mark Hall
-:order: 1
+:order: 4
 
 The Digital Museum Map application demonstrates the use of visualisation and
 browsing to enable users to freely explore a virtual museum without requiring

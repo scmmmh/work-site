@@ -2,7 +2,7 @@ Experiment Support System
 #########################
 
 :author: Mark Hall
-:order: 3
+:order: 5
 
 The Experiment Support System is a python-based web-application for building
 online surveys, questionnaire's, and crowdsourcing-style experiments. It was
@@ -28,4 +28,4 @@ Source-code:
 License:
   GNU GPLv3
 Publications:
-  `Building a Common Framework for IIR Evaluation <{filename}../publications.rst#publication-HallToms2013>`_
+  `Building a Common Framework for IIR Evaluation <{filename}../publications.rst#publication-halltoms2013>`_

@@ -2,7 +2,7 @@ Explore the Stacks
 ##################
 
 :author: Mark Hall
-:order: 2
+:order: 6
 
 The Explore the Stacks application demonstrates how browsing-based navigation
 can be combined with search to enable an integrated experience. In the
@@ -23,4 +23,4 @@ Source-code:
 License:
   GPLv3
 Publications
-  `Explore the Stacks: A System for Exploration in Large Digital Libraries <{filename}../publications.rst#publication-Hall2014a>`_
+  `Explore the Stacks: A System for Exploration in Large Digital Libraries <{filename}../publications.rst#publication-hall2014a>`_
