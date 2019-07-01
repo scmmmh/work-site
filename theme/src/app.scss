@@ -57,6 +57,15 @@ dl {
         margin-top: $paragraph-margin-bottom / 2;
     }
 }
+table.borderless {
+    width: auto;
+    border: 0;
+
+    tr, td, th {
+        border: 0;
+        background: $white;
+    }
+}
 
 /**
  * Generic styling

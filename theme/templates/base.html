@@ -34,7 +34,6 @@
         <nav class="top-bar-left">
           <ul class="menu dropdown" data-dropdown-menu="">
             <li class="menu-text">{{ SITENAME }}</li>
-            <li {% if output_file == 'index.html' %}class="active"{% endif %}><a href="{{ SITEURL }}">Thoughts</a></li>
             {% for title, link in MENUITEMS %}
               <li><a href="{{ link }}">{{ title }}</a></li>
             {% endfor %}

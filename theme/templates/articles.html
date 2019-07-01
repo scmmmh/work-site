@@ -1,10 +1,11 @@
 {% extends "base.html" %}
-{% block breadcrumb_title %}Thoughts{% endblock %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block breadcrumb_title %}{{ page.title }}{% endblock %}
 {% block content %}
-  <h1>{% block content_title %}{{ SITENAME }}{% endblock %}</h1>
+  <h1>{{ page.title }}</h1>
   {% if articles %}
     <ol class="no-symbol no-margin">
-      {% for article in articles_page.object_list %}
+      {% for article in articles %}
         <li class="grid-x article">
           {% include('article_brief_inc.html') %}
         </li>
