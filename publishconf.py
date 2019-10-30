@@ -12,6 +12,6 @@ from pelicanconf import *
 
 DELETE_OUTPUT_DIRECTORY = True
 
-SITEURL = 'https://work.room3b.eu'
+SITEURL = 'https://www.room3b.eu'
 
 RELATIVE_URLS = False
