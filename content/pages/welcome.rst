@@ -5,10 +5,9 @@ Mark Hall
 :save_as: index.html
 :url:
 
-I am currently the Junior Professor for eHumanities at the Martin-Luther-University Halle-Wittenberg. There
-I am collaborating with researchers from the humanities on a wide range of `projects <projects.html>`_, ranging from
-projects developing tools for reading and writing digital editions, projects using machine learning to automatically
-process historic jokes, to using heuristic approaches for identifying unique people in historic census data.
+I am a Lecturer in Computing & Communication at The Open University. There I am undertaking research in a number of
+area including Interactive Information Retrieval, Digital Cultural Heritage, and Digital Humanities. Outputs of these
+can be seen in the `projects <projects.html>`_.
 
 Interests & Skills
 ==================
@@ -37,9 +36,9 @@ Background
 
 I received my PhD in 2011 for research undertaken at Cardiff University's School of Computer Science and Informatics
 for research into translating between natural language and computational representations of space. Since then I have
-worked at a range of institutions including The National Archives, the University of Sheffield, and Edge Hill
-University on a range of collaborative, interdisciplinary research projects, working both with other academics
-and external partners.
+worked at a range of institutions including The National Archives, the University of Sheffield, Edge Hill
+University, and the Martin-Luther-University of Halle-Wittenberg on a range of collaborative, interdisciplinary research
+projects, working both with other academics and external partners.
 
 Contact
 =======

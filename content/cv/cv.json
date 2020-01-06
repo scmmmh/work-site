@@ -124,6 +124,14 @@
       "position": "Lecturer in Human-Computer-Interaction",
       "summary": "Providing teaching cover for modules in the HCI/IoT area",
       "website": "https://www.cardiff.ac.uk/computer-science"
+    },
+    {
+      "company": "The Open University",
+      "startDate": "2020-01-06",
+      "location": "Milton Keynes, United Kingdom",
+      "website": "http://open.ac.uk",
+      "position": "Lecturer in Computing & Communication",
+      "summary": "Teaching in the area of Networking and Web Development. Research into Interactive Information Retrieval, Digital Cultural Heritage, and Digital Humanities"
     }
   ],
   "education": [
