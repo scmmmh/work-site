@@ -1,5 +1,6 @@
 #!/bin/bash
 export PIPENV_VENV_IN_PROJECT=1
+git checkout -- .
 git pull
 yarn install
 ./node_modules/.bin/gulp
