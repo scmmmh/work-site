@@ -22,12 +22,12 @@ one reason or another have slipped under the surface of public perception. It
 does not hold any data itself, but uses automated tools to link together data
 from a variety of sources.
 
-`Historic Person Linkage <{filename}projects/historic-person-linkage.rst>`_
----------------------------------------------------------------------------
+`Steinreich <{filename}projects/steinreich.rst>`_
+-------------------------------------------------
 
-The Historic Person Linkage project is investigating methods for automatically
-identifying when two people mentioned in historic census lists are actually the
-same person.
+The `Steinreich project <https://steinreich.uzi.uni-halle.de>`_ is an online
+exhibition built to acompany a physical exhibition around the topic of stones
+through history and literature.
 
 `Gutzkow Digital Edition <{filename}projects/gutzkow-digital-edition.rst>`_
 ---------------------------------------------------------------------------
