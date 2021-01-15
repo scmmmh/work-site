@@ -4,24 +4,24 @@ Digital Museum Map
 :author: Mark Hall
 :order: 4
 
-The Digital Museum Map application demonstrates the use of visualisation and
-browsing to enable users to freely explore a virtual museum without requiring
-expert knowledge. The application enables access to a collection of approximately
-2000 objects from the ancient Egypt collection at the World Museum in Liverpool,
-UK.
+Museum's have created large digital collections by digitising (parts) of their
+collections. In almost all cases, access to these digital collections is only
+through a search box. This makes it really hard to get an overview over what
+the digital collection contains and requires that the user knows exactly what
+they are looking for.
 
-One of the issues with digital cultural heritage is that there is more data
-available than can be curated into an explorable structure by hand. The Digital
-Museum Map addresses this by providing a system that takes the source digital
-cultural heritage data and automatically arranges the items into floors and
-rooms to create a semantic structure that can be explored.
+The Digital Museum Map application demonstrates an alternate approach, where
+an algorithm is used to automatically organise the items in the collection into
+rooms and floors. This structure of floors and rooms is then made available
+via the web application, enabling the user to freely browse through the digital
+collection, just as they could freely wander through a physical museum.
 
-This structure is then loaded into the web interface to provide an interface
-that can easily be explored by users who are interested in cultural heritage,
-but who are not experts in the field.
+The demonstration application linked below provides access to approximately
+15,000 objects from the Victoria & Albert Museum's collections, covering a
+wide range of topics.
 
 Web-site:
-  https://museum-map.uzi.uni-halle.de
+  https://museum-map.research.room3b.eu
 Source-code:
   To be released
 License:

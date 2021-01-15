@@ -42,8 +42,7 @@ editing and reading of the digital edition.
 The `Digital Museum Map`_ application demonstrates the use of visualisation and
 browsing to enable users to freely explore a virtual museum without requiring
 expert knowledge. The application enables access to a collection of approximately
-2000 objects from the ancient Egypt collection at the World Museum in Liverpool,
-UK.
+15,000 objects from the Victoria & Albert Museum's digital collections.
 
 .. _`Digital Museum Map`: https://museum-map.uzi.uni-halle.de
 
