@@ -44,7 +44,7 @@ browsing to enable users to freely explore a virtual museum without requiring
 expert knowledge. The application enables access to a collection of approximately
 15,000 objects from the Victoria & Albert Museum's digital collections.
 
-.. _`Digital Museum Map`: https://museum-map.uzi.uni-halle.de
+.. _`Digital Museum Map`: https://digital-museum.research.room3b.eu
 
 `Experiment Support System <{filename}projects/ess.rst>`_
 ---------------------------------------------------------
