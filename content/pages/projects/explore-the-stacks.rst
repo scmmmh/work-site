@@ -19,7 +19,7 @@ Status
 Web-site:
   https://explore-the-stacks.uzi.uni-halle.de
 Source-code:
-  https://bitbucket.org/mhall/explore-the-stacks
+  https://github.com/scmmmh/explore-the-stacks
 License:
   GPLv3
 Publications
