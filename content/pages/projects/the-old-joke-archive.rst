@@ -2,7 +2,7 @@ The Old Joke Archive
 ####################
 
 :author: Mark Hall
-:order: 0
+:order: 4
 
 Jokes represent one of the most understudied sources about nineteenth century society. Due to their ephemeral nature
 they slipped from attention as soon as they were no longer funny or topical. Digitisation of newspapers and books has
@@ -14,7 +14,7 @@ transcribe the text, classify, and then annotate them. The resulting archive wil
 academics and the general public.
 
 Web-site:
-  Launch November 2019
+  Launch August 2021
 Source-code:
   To be released
 Publications:

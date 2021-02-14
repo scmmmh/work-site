@@ -2,7 +2,7 @@ Steinreich
 ==========
 
 :author: Mark Hall
-:order: 2
+:order: 0
 
 The `Steinreich project <https://steinreich.uzi.uni-halle.de>`_ is an online
 exhibition built to acompany a physical exhibition around the topic of stones

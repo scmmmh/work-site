@@ -2,7 +2,7 @@ Explore the Stacks
 ##################
 
 :author: Mark Hall
-:order: 6
+:order: 2
 
 The Explore the Stacks application demonstrates how browsing-based navigation
 can be combined with search to enable an integrated experience. In the

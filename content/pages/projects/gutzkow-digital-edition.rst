@@ -2,7 +2,7 @@ Gutzkow Digital Edition
 #######################
 
 :author: Mark Hall
-:order: 3
+:order: 5
 
 The Gutzkow Digital Edition is the digital side of the Gutzkow Edition, which aims to develop a complete edition of
 the 19th century German writer Karl Gutzkow. He was a prolific writer, producing novels, short stories, plays, and

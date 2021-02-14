@@ -2,7 +2,7 @@ Under the Surface
 #################
 
 :author: Mark Hall
-:order: 1
+:order: 3
 
 The digitisation of our cultural heritage has reinforced many of the biases in the modern canon across all areas of
 the arts. This is not to say that all people outside the canon have been completely excluded, but they lack the

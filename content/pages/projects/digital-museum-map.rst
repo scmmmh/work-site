@@ -2,7 +2,7 @@ Digital Museum Map
 ##################
 
 :author: Mark Hall
-:order: 4
+:order: 1
 
 Museum's have created large digital collections by digitising (parts) of their
 collections. In almost all cases, access to these digital collections is only

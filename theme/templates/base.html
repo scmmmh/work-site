@@ -1,6 +1,6 @@
 {% macro page_menu(pages, direction='vertical', include_ul=True) -%}
   {% if include_ul %}<ul class="menu {% if direction == 'vertical' %}vertical{% endif %}">{% endif %}
-    {% for menu_page in pages %}
+    {% for menu_page in pages|sort(attribute='order') %}
       <li {% if page and (menu_page == page or menu_page in page.parents) %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ menu_page.url }}">{{ menu_page.title }}</a>
         {% if menu_page.children %}{{ page_menu(menu_page.children) }}{% endif %}
       </li>
