@@ -23,7 +23,7 @@ wide range of topics.
 Web-site:
   https://museum-map.research.room3b.eu
 Source-code:
-  To be released
+  https://github.com/scmmmh/museum-map
 License:
   MIT
 Publication:
