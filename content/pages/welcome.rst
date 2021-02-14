@@ -7,7 +7,7 @@ Mark Hall
 
 I am a Lecturer in Computing & Communication at The Open University. There I am undertaking research in a number of
 area including Interactive Information Retrieval, Digital Cultural Heritage, and Digital Humanities. Outputs of these
-can be seen in the `projects <projects.html>`_.
+can be seen in the `projects list <projects.html>`_.
 
 Interests & Skills
 ==================
@@ -37,8 +37,8 @@ Background
 I received my PhD in 2011 for research undertaken at Cardiff University's School of Computer Science and Informatics
 for research into translating between natural language and computational representations of space. Since then I have
 worked at a range of institutions including The National Archives, the University of Sheffield, Edge Hill
-University, and the Martin-Luther-University of Halle-Wittenberg on a range of collaborative, interdisciplinary research
-projects, working both with other academics and external partners.
+University, the Martin-Luther-University of Halle-Wittenberg, and The Open University on a range of collaborative,
+interdisciplinary research projects, working both with other academics and external partners.
 
 Contact
 =======
@@ -49,7 +49,7 @@ Contact
     +---------------+-------------------------------------------------+
     | **Email**     | mark.hall@work.room3b.eu                        |
     +---------------+-------------------------------------------------+
-    |               | mark.hall@informatik.uni-halle.de               |
+    |               | mark.hall@open.ac.uk                            |
     +---------------+-------------------------------------------------+
     | **Twitter**   | `@hallicek <https://www.twitter.com/Hallicek>`_ |
     +---------------+-------------------------------------------------+
