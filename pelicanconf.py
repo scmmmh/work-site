@@ -37,8 +37,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Set the links to use in the footer
-LINKS = (('eHumanities @ Institut für Informatik', 'https://www.informatik.uni-halle.de/arbeitsgruppen/ehumanities/'),
-         ('Institut für Informatik @ Martin-Luther-Universität Halle-Wittenberg', 'http://www.informatik.uni-halle.de/'),
+LINKS = (('Mark Hall @ The Open University', 'http://www.open.ac.uk/people/mmh352'),
          ('Research Gate', 'https://www.researchgate.net/profile/Mark_Hall19'))
 SOCIAL = (('@hallicek', 'https://twitter.com/hallicek'),)
 
