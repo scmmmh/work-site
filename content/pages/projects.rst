@@ -19,7 +19,7 @@ browsing to enable users to freely explore a virtual museum without requiring
 expert knowledge. The application enables access to a collection of approximately
 15,000 objects from the Victoria & Albert Museum's digital collections.
 
-.. _`Digital Museum Map`: https://digital-museum.research.room3b.eu
+.. _`Digital Museum Map`: https://museum-map.research.room3b.eu
 
 .. class:: project-completed
 
