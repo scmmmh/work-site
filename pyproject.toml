@@ -7,7 +7,7 @@ license = "CC-BY-4.0"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-pelican = "^4.2.0"
+pelican = "^4.6.0"
 pelican_bibtex = { git = "https://github.com/scmmmh/pelican-bibtex.git" }
 pelican_page_hierarchy = { git = "https://github.com/scmmmh/pelican-page-hierarchy.git" }
 pelican_page_order = { git = "https://github.com/scmmmh/pelican-page-order.git" }
