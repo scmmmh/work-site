@@ -1,8 +1,7 @@
 #!/bin/bash
-export PIPENV_VENV_IN_PROJECT=1
 git checkout -- .
-git pull
-yarn install
-./node_modules/.bin/gulp
-poetry install
-poetry run pelican -o output -d -s publishconf.py content
+git pull --ff-only
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --no-cache-dir -r requirements.txt
+pelican -o output -d -s publishconf.py content

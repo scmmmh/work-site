@@ -12,6 +12,7 @@ pelican_bibtex = { git = "https://github.com/scmmmh/pelican-bibtex.git" }
 pelican_page_hierarchy = { git = "https://github.com/scmmmh/pelican-page-hierarchy.git" }
 pelican_page_order = { git = "https://github.com/scmmmh/pelican-page-order.git" }
 pelican_cv = { git = "https://github.com/scmmmh/pelican-cv.git" }
+doit = "^0.34.1"
 
 [tool.poetry.dev-dependencies]
 

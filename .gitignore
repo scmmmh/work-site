@@ -3,3 +3,5 @@ node_modules
 .venv
 *.log
 __pycache__
+.vscode
+.doit.db
