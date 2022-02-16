@@ -27,5 +27,5 @@ Source-code:
 License:
   MIT
 Publication:
-  `Exploring Digital Cultural Heritage through Browsing <{filename}../publications.rst#publication-HallWalsh2021>`_
-  `Digital Museum Map <{filename}../publications.rst#publication-Hall2018>`_
+  * `Exploring Digital Cultural Heritage through Browsing <{filename}../publications.rst#publication-HallWalsh2021>`_
+  * `Digital Museum Map <{filename}../publications.rst#publication-Hall2018>`_
