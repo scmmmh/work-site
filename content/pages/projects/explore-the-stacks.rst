@@ -16,8 +16,6 @@ books that sit on the digital shelves.
 
 Status
   Completed
-Web-site:
-  https://explore-the-stacks.uzi.uni-halle.de
 Source-code:
   https://github.com/scmmmh/explore-the-stacks
 License:
