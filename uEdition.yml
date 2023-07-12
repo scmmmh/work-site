@@ -1,0 +1,25 @@
+author:
+  email: mark.hall@work.room3b.eu
+  name: Mark M Hall
+languages:
+- code: en
+  label: English
+  path: en
+- code: de
+  label: Deutsch
+  path: de
+output: site
+repository:
+  branch: main
+  url: https://www.github.com/scmmmh/work-site
+version: '1'
+title:
+  en: Room3b Software and Research Consulting
+  de: Room3b Software und Research Consulting
+jb_config:
+  sphinx:
+    config:
+      html_theme: pydata_sphinx_theme
+      html_theme_options:
+        secondary_sidebar_items:
+          - page-toc.html
